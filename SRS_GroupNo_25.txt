@@ -1,0 +1,124 @@
+
+
+                   Project Title:-"Generic drugs supply portal" 
+SRS(System Requirement Specification)
+
+
+
+Team: 
+	Customer, Architect, Domain Expert, Bussiness Analyst
+	QA will interact together to form SRS document.
+Document Owner: System Analyst.
+					
+Purpose:"Reduction in expenditures without compromising health outcomes.
+The most important benefit of generic medicines is not cost-savings,
+but increased health gain."
+	
+Scope:
+	->This system allows the customer's to maintain their product for add or remove the product over the internet.
+	Shoppers will be able to manage thier products stock.
+
+Definitions:
+	  OSS----Online Shopping System
+	  SSL-----Secure Socket layer
+	  pdf-----Acrobat Document Reader file
+	  QA------Quality Assurance 
+	  HTML----Hyper Text Markup language document as web page
+	  RDBMS---Relational Database management System
+	redundant--not or no longer needed or useful; superfluous.
+
+Overview:
+	This System provides an easy solution to  customer's to buy the medicine at cheaper rate without going to the Generic Medical
+	and also shop owner to sale their  products online.
+	The Online shopping application helps to manage the items in the shoppers' carts and also helps customers to purchase.
+	The online shopping system will use the internet as the sole method for selling medicine to its consumers.
+
+
+	
+Functional Requirement:
+	This section provides requirement overview of the system. 
+	Various functional modules that can be implemented by 
+	
+		This seciton provides requirements overview of the system.
+		Various functional modules that can be implemented by system
+		Any anonymous user can view products from product catalog.
+		System will provide registration for newCustomers and  shoppers.
+		User can get details of the product choosen from product catalog.
+		Users can get review, rating details for product selected as well.
+		Users will be able to add selected product into shopping maintained by system.
+		User can remove items from Shoppingcart on thier choice
+		Users can view all items from Shopping Cart.
+		Only registered customers are allowed to place new Order .
+		Customers are always asked for validation to access information about Orders.		
+		Registered Customer can cancel orders within 24 hours.
+		
+		
+
+		New Shopper can provides his/her personal and business details for registraion.
+		Registered shopper can request for product to be sold using online shopping portal.
+		Registered shopper can track approval or rejection of Products request for selling on onlineshopping protal.
+		Registered shopper can update product details maintained in product catalog.
+		Registered shopper can get reviews and rating  maintained for products.
+		Registered shopper can check thier Product details sold through onlineshopping Details.
+		Registered shopper would have been notified for retuned products due refund policy and payment rollback will be taken care.
+
+
+		
+		
+		
+		 (Use Cases)
+		(Users)----------------Roles----------------------------------------------------------------------------
+																 Product Catalog
+		
+Non-Functional Requirements
+	
+	1.Security: ? SSL----- https://www.genericmedicines.in
+		use of SSL in all transaction that include confidential customer information.
+		//The system should not leave any cookies on the customer's computer containing users's password.
+		The system's back-end servers shall  only be accessible to authenticated administrators.
+		//Sensitive data will be encrypted  before being sent onver insecure connections like internet.
+		//The proper firewalls should be developed to avoid intrusions from the internal or external sources.
+	
+	2.Reliability:?
+
+			The system provides storage of all databases on redundant computers with  automatic switchover. 
+			The main pillar of reliability of the system  is the backup of the database.
+			conitinously maintained and update to reflect  the most recenet changes.?
+
+	3:Availability:
+			uptime : It mean 24 * 7 availability
+			99.9999%
+
+	4:Maintainability:?
+	A commercial database is used for maintaining the database and application server takes care of the site. 
+	The maintainability can be done efficiently.?
+
+	5.Portability:	
+			The application is HTML and scripting language based (Javascript). 
+			So the end user part is fully portable and any system using 
+			any web browser should be able to use the features of the system,
+			system,
+			including any hardware platform that is available or will be available in the futuer. 
+		 	An end-user  is used this system on an OS;either it is Windows or Linux.  
+			The System shall run on PC, Laptops and PDA.etc. from access point of view
+			The technology should be transferable to different environments easily.
+
+	6.Accessibility:
+
+			 Only registered users should be allowed to process the orders after authentications.
+			 Only GUI access of the system should be permited to end users.		
+	
+	7.Policies:
+		  	The system should adhere to all the legal formalities of the particular State.
+		   	The system should maintain security related to sensitive data.
+	
+	8.Efficiency:
+			The system should provide good throughput and 
+			response to multiple users without burdening the system by using appropriate number of servers.
+
+	9.Safety:
+		 	Software should not harm ethical and environmental conditions of the end users  machine.
+	
+	10.Modularity:
+			The system should have user friendly interface
+			It shouls be easily updated, modified and reused.
