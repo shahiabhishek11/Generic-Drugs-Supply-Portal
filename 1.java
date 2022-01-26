@@ -18,6 +18,7 @@ public class PrimeExample{
 }    
 }   
 
+<<<<<<< HEAD
 //This is changes must ndone by e in relase branch 
 //The changes 
 
@@ -28,3 +29,8 @@ Class Abhishek{
 
     
 }
+=======
+//Changes are made in release branch
+
+
+>>>>>>> a0e06aea3fc2d2271ff94bbce3e583101fdf30ef
