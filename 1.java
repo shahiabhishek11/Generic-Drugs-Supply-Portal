@@ -15,5 +15,14 @@ public class PrimeExample{
    }      
    if(flag==0)  { System.out.println(n+" is prime number"); }  
   }//end of else  
+
+
+  //thos is another changes made by me
+  static int add(int a,int b)
+  {
+      int c=a+b;
+
+      System.out.println(c);
+  }
 }    
 }   
