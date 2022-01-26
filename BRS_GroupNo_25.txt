@@ -1,5 +1,9 @@
                             Project Title:-"Generic drugs supply portal" 
 
+
+//BRS also get changed
+
+
 Suggest the releated  medicine(1mg.com/pharmeasy.com ------>website)
 Functionalities
 1)Search

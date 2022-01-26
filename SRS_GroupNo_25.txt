@@ -3,7 +3,7 @@
                    Project Title:-"Generic drugs supply portal" 
 SRS(System Requirement Specification)
 
-
+//SRS also get changed
 
 Team: 
 	Customer, Architect, Domain Expert, Bussiness Analyst
